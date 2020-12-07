@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+
+#container{
+	background-image:url("stage.png");
+	width:1280;
+	height:769px;
+	border-width:8px;
+	border-color:black;
+	position: relative;
+
+}
+
+#hitbox{
+	width:1280;
+	height:769px;
+}
+
+#score{
+	position:absolute;
+	top:30px;
+	left:0px;
+	font-size:14px;
+	width:90px;
+	height:70px;
+}
+
+#duck{
+	position:absolute;
+	left:500px;
+	top:300px;
+	transition: 0.2x linear;
+	width:200px;
+	height:100px;
+}
+
+
+
+
+
